@@ -44,7 +44,7 @@ public class Main {
 
         int[] arr = {1, 2, 3, 7, 13};
         for (int i = 0; i < arr.length; i++) {
-            if (i % 2 == 0) {
+            if (arr[i] % 2 != 0) {
                 arr[i] = arr[i] + 1;
                 System.out.print(arr[i] + " ");
             }
